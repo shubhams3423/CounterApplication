@@ -153,6 +153,7 @@ body {
         width: 17vw;
         text-align: center;
         border: 3px solid #ab0e0e;
+        margin-left: 5px;
     }
     .minus1{
         
@@ -164,7 +165,7 @@ body {
         width: 17vw;
         text-align: center;
         border: 3px solid #ab0e0e;
-        margin-right:-12vw ; 
+        margin-right:-4vw ; 
     }
 
     .reset {
@@ -177,10 +178,11 @@ body {
         width: 26vw;
         text-align: center;
         padding: 6px 0px 1px 0px;
-        margin: 0px 20px;
+        
         border: 3px solid #ab0e0e;
         position: relative;
         top: 20vw;
+        right: 8vw;
     }
 
     .plus {
@@ -192,6 +194,7 @@ body {
         height: 7vh;
         width: 16vw;
         text-align: center;
+        margin-right: 5px;
     }
     .plus1{
         font-size: 7vw;
@@ -202,8 +205,8 @@ body {
         width: 17vw;
         margin-right: 3vw;
         text-align: center;
-        border: 3px solid #ab0e0e;
-        margin-left: -12vw;
+        border: 3px solid #aa0707;
+        margin-left: -21vw;
     }
     
     
