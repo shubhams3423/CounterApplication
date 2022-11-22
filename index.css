@@ -1,7 +1,4 @@
-html {
-    font-size: 62.5%;
-}
-
+ 
 body {
     margin: 0px;
     padding: 0px;
@@ -13,17 +10,17 @@ body {
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
-    /* background-color: aqua; */
-    border-radius: 20px;
+     
+    border-radius: 20px;        
 
     margin: 0vw 29vw 0vw 29vw;
 }
 
 
-.zero {
-    font-size: 39vh;
+.container{
+ 
     text-align: center;
-
+    font-size: 36vh;
     color: black;
 
     margin: 8vh 36vw 0vh 36vw;
@@ -31,81 +28,124 @@ body {
 
     border: 3px solid red;
     border-radius: 23px;
+    width: 24vw;
+    
 }
+ 
 
 
 .symbols {
-    margin: 3vw 0vw 0px 39.6vw;
+    
+     margin: 10vh 0vw;
+     text-align: center;
+     
 
 }
 
 .btn {
     display: inline-block;
 }
-
-.plus {
+.btn1 {
     display: inline-block;
-    font-size: 8vh;
+}
+
+
+.minus1{
+    display: inline-block; 
+    font-size: 1.6vw;
     background-color: #ff0000de;
     border: 2px solid black;
     border-radius: 12px;
     height: 11vh;
-    width: 4vw;
+    width: 5vw;
+    margin-left: 3vw;
     text-align: center;
     border: 3px solid #ab0e0e;
 }
 
+.minus {
+    display: inline-block; 
+    font-size: 2vw;        
+     background-color: #ff0000de;
+    border: 2px solid black;
+    border-radius: 12px;
+    height: 11vh;
+    width: 5vw;
+    text-align: center;
+    border: 3px solid #ab0e0e; 
+} 
+
 .reset {
-    display: inline-block;
-    font-size: 5vh;
+     display: inline-block; 
+     font-size: 2vw;
     background-color: #ff0000de;
     border: 2px solid #ab0e0e;
     border-radius: 12px;
-    height: 9vh;
-    width: 7vw;
+    height: 13vh;
+    width: 8vw;
+    margin:0vh 3vw;
     text-align: center;
     padding-top: 0em;
     margin: 0px 28px;
     border: 3px solid #ab0e0e;
 }
 
-.minus {
+.plus {
     display: inline-block;
-    font-size: 8vh;
+    font-size: 2vw;     
     background-color: #ff0000de;
     border: 2px solid black;
     border-radius: 12px;
     height: 10vh;
-    width: 4vw;
+    width: 5vw;
     text-align: center;
     border: 3px solid #ab0e0e;
 
+} 
+ 
+.plus1{
+    font-size: 1.6vw;
+    background-color: #ff0000de;
+    border: 2px solid black;
+    border-radius: 12px;
+    height: 10vh;
+    width: 5vw;
+    margin-right: 3vw;
+    text-align: center;
+    border: 3px solid #ab0e0e;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:700px) {
     .symbols {
-        margin: 8vw 6vw 0px 16.6vw;
+       
+        margin-top: 8vw;
 
     }
 
-    .btn {
-        display: inline-block;
-    }
+     
 
-    .zero {
-        font-size: 23vh;
+    .container{
         text-align: center;
-        color: white;
-        margin: 9vh 16vw 0vh 20vw;
-        background-color: orange;
-        border: 3px solid red;
-        border-radius: 23px;
-        height: 26vh;
-    }
+        
+         text-align: center;
+            
+            width: 52vw;
+            
+            color: black;
+        
+             margin: 8vh 20vw 0vh 21vw; 
+            background-color: orange;
+        
+            border: 3px solid red;
+            border-radius: 23px; 
+            font-size: 28vw;
+            
+     } 
+     
 
-    .plus {
-        display: inline-block;
-        font-size: 6vh;
+    .minus {
+        
+        font-size: 7vw;
         background-color: #ff0000de;
         border: 2px solid black;
         border-radius: 12px;
@@ -114,10 +154,22 @@ body {
         text-align: center;
         border: 3px solid #ab0e0e;
     }
+    .minus1{
+        
+        font-size: 7vw;
+        background-color: #ff0000de;
+        border: 2px solid black;
+        border-radius: 12px;
+        height: 7vh;
+        width: 17vw;
+        text-align: center;
+        border: 3px solid #ab0e0e;
+        margin-right:-12vw ; 
+    }
 
     .reset {
-        display: inline-block;
-        font-size: 4vh;
+        
+        font-size: 7vw;
         background-color: #ff0000de;
         border: 2px solid #ab0e0e;
         border-radius: 12px;
@@ -127,11 +179,13 @@ body {
         padding: 6px 0px 1px 0px;
         margin: 0px 20px;
         border: 3px solid #ab0e0e;
+        position: relative;
+        top: 20vw;
     }
 
-    .minus {
-        display: inline-block;
-        font-size: 6vh;
+    .plus {
+       
+        font-size: 7vw;
         background-color: #ff0000de;
         border: 3px solid #ab0e0e;
         border-radius: 12px;
@@ -139,5 +193,19 @@ body {
         width: 16vw;
         text-align: center;
     }
+    .plus1{
+        font-size: 7vw;
+        background-color: #ff0000de;
+        border: 2px solid black;
+        border-radius: 12px;
+        height: 7vh;
+        width: 17vw;
+        margin-right: 3vw;
+        text-align: center;
+        border: 3px solid #ab0e0e;
+        margin-left: -12vw;
+    }
+    
+    
 
-}
+}  
